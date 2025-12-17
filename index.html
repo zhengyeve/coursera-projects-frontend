@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Mangata & Gallo - a Luxury Jewelry brand designed for special occasions." />
+    <title>Home — Mangata & Gallo</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+    <header class="site-header" role="banner">
+        <img src="assets/Asset 2@3x.png" alt="Mangata & Gallo Logo" />
+    </header>
+
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+            <li><a class="btn btn-primary" href="/index.html">Home</a></li>
+            <li><a class="btn btn-primary" href="#catalog">Catalog</a></li>
+            <li><a class="btn btn-primary" href="#about">About</a></li>
+            <li><a class="btn btn-primary" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main id="main" class="site-main" role="main">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h1 id="hero-heading">Welcome to Mangata & Gallo</h1>
+                <p class="lead">Mangata and Gallo is a jewelry store that specializes in special occasions like engagements, weddings and anniversaries.</p>
+                <a class="btn btn-secondary" href="#article">Learn More</a>
+            </div>
+        </section>
+
+        <section id="article" class="article" aria-labelledby="article-heading">
+            <article class="article-item">
+                <h2>OUR STORE</h2>
+                <img src="assets/image1.jpg" alt="Mangata & Gallo Storefront" />
+                <p>Mangata and Gallo jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier attached for browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look.  </p>
+            </article>
+            <article class="article-item">
+                <h2>OUR STORY</h2>
+                <img src="assets/image2.jpg" alt="Jewelry" />
+                <p>Mariana is the owner and the lead designer of Mangata and Gallo. After graduating from design school with a specialization in diamond cutting and metal smithing, Mariana opened a store in her hometown, Austin and started to grow her business online.</p>
+            </article>
+            <article class="article-item">
+                <h2>SHOP NOW</h2>
+                <img src="assets/image3.webp" alt="Jewelry Display" />
+                <p>Checkout the designs and shop now!</p>
+                <a class="btn btn-secondary" href="#catalog">Shop Now</a>
+            </article>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h1 id="about-heading">About this project</h2>
+                <p>A web design tryout.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <img src="assets/Asset 1@3x.png" alt="Mangata & Gallo Logo" />
+        </div>
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Mangata & Gallo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Small inline script to set the current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <!-- Link to your external JS file if needed -->
+    <script src="script.js" defer></script>
+</body>
+</html>
